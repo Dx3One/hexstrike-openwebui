@@ -1,3 +1,12 @@
+# ⚠️ IMPORTANT DISCLAIMER
+AUTHORIZED USE ONLY: This tool is designed for authorized security testing only. 
+You must have explicit written authorization to test any systems, networks, or applications. Unauthorized access to computer systems is illegal.
+
+USE AT YOUR OWN RISK: 
+This software is provided "AS IS" without warranty. 
+The authors are not liable for any damages or legal consequences resulting from use or misuse of this software.
+
+
 # HexStrike OpenWebUI Tool Wrapper  
 > A lightweight Python wrapper that exposes the **HexStrike** API as a set of OpenWebUI tools.  
 > After cloning the repo, simply edit the `HEXSTRIKE_API` constant to point to your HexStrike MCP instance and add the tool to OpenWebUI.
