@@ -69,7 +69,7 @@ HEXSTRIKE_API = "http://192.168.x.x:8888"
 Now you can invoke any method directly from the chat, e.g.:
 
 ```
-/hexstrike nmap_scan target=example.com
+nmap_scan target=example.com
 ```
 
 
@@ -77,7 +77,7 @@ Now you can invoke any method directly from the chat, e.g.:
 
 ## Available Methods
 
-The wrapper contains **over 200** methods. Below is a grouped summary; for the full list consult the source file or run `dir(Tools)`.
+The wrapper contains **over 200** methods. Below is a grouped summary.
 
 | Category | Example Method | Purpose |
 |----------|----------------|---------|
@@ -90,8 +90,6 @@ The wrapper contains **over 200** methods. Below is a grouped summary; for the f
 | **AI** | `select_optimal_tools_ai`, `ai_reconnaissance_workflow`, `ai_vulnerability_assessment` | AI‑driven tool selection & assessments |
 | **Reporting** | `create_vulnerability_report`, `create_scan_summary` | Generate visual reports |
 | **Bug Bounty** | `bugbounty_recon_workflow`, `bugbounty_vuln_hunting` | End‑to‑end bug‑bounty workflows |
-
-> **Note:** Methods that are marked as “⚠️ Dangerous” (e.g. `execute_command`, `metasploit_run`) should be used with caution, especially in shared or production environments.
 
 ---
 
