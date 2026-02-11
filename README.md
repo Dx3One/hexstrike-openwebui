@@ -43,13 +43,13 @@ When integrated into **OpenWebUI** you can call any of these methods from the ch
 2. Locate the line:
 
 ```python
-HEXSTRIKE_API = "http://YOUR-HEX-STRIKE-MCP:8888"
+default="http://YOUR-HEX-STRIKE-MCP:8888",
 ```
 
 3. Replace the URL with the address of your HexStrike MCP, e.g.:
 
 ```python
-HEXSTRIKE_API = "http://192.168.x.x:8888"
+default="http://192.168.1.XX:8888",
 ```
 
 > **Important:** The IP/hostname and port must be reachable from the host running OpenWebUI.
